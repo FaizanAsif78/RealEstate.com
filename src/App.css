@@ -1,38 +1,597 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Akronim&family=Keania+One&family=Mochiy+Pop+P+One&family=Piedra&family=Potta+One&family=Ribeye&family=Rubik+Glitch&display=swap');
+
+/* Home Section Css */
+.container h1 {
+  color: yellow;
+}
+
+html {
+  font-size: 100%;
+}
+
+.contactsecss {
+  display: inline-flex;
+}
+
+.estatelogo {
+  color: #0DCAF0;
+}
+
+.home {
+  background-image: linear-gradient(90deg, #646464, #000000);
+  padding: 5rem;
+}
+
+.home-sec1 {
+  padding: 6rem 3rem 0rem 3rem;
+}
+
+.home-sec1 h1 {
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Piedra', cursive;
+  ;
+}
+
+.home-sec1 p {
+  color: #c0abab;
+  margin-top: 3rem;
+}
+
+.home-sec1 input {
+  height: 3.6rem;
+  width: 20rem;
+  border-radius: 0.3rem;
+  outline: none;
+  border: none;
+  text-indent: 1rem;
+}
+
+.home-sec1 button {
+  margin-left: -6rem;
+  margin-top: -0.2em;
+}
+
+.imgbg {
+  background-color: rgb(221, 221, 221);
+  width: 30rem;
+  padding: 0.5rem;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+}
+
+.home-sec2 img {
+  height: 40rem;
+  width: 30rem;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+}
+
+.maincount {
+  margin-top: 3rem;
+}
+
+.count1 {
+  margin-right: 1rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.count2 {
+  margin-right: 1rem;
+  text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.count3 {
+  text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.count1 h1 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.count1 h6 {
+  font-size: 0.8rem;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.count2 h1 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.count2 h6 {
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 0.5rem;
+
+}
+
+.count3 h1 {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.count3 h6 {
+  font-size: 0.8rem;
+  color: white;
+  margin-left: 0.5rem;
+
+
+}
+
+
+/* Company Section Css :start */
+.company-Icons {
+  margin-top: 8rem;
+}
+
+.company-Icons i {
+  font-size: 8rem;
+  color: #cccccc;
+  transition: 0.8s ease;
+  /* color: #c0abab; */
+}
+
+.company-Icons i:hover {
+  color: #858585;
+  /* colorgb(134, 134, 134)bab; */
+}
+
+/* Residence section Section Css :start */
+
+.mainrecidenve {
+  margin-top: 5rem;
+}
+
+.mainrecidenve h6 {
+  text-transform: uppercase;
+}
+
+.mainrecidenve h1 {
+  text-transform: capitalize;
+  color: #0DCAF0;
+  margin-bottom: 3rem;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.swipers img {
+  width: 21rem;
+  height: 18rem;
+  border-radius: 1rem;
+
+}
+
+.swipers span {
+  color: #0DCAF0;
+  margin-right: 0.5rem;
+
+}
+
+.swipers h4 {
+  text-transform: capitalize;
+  font-size: 1.3rem;
+
+}
+
+.swipers p {
+  text-align: start;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+
+}
+
+.sliders {
+  /* border: 1px solid black; */
+  border-radius: 1rem;
+  padding-top: 0.8rem;
+  background-color: #f8f8f8;
+  /* padding-left: 3rem; */
+  /* padding-right: 3rem; */
+  transition: 0.8s ease-in-out;
+}
+
+.sliders:hover {
+  box-shadow: 4px 3px 6px 0px rgba(163, 163, 163, 0.75);
+  -webkit-box-shadow: 4px 3px 6px 0px rgba(163, 163, 163, 0.75);
+  -moz-box-shadow: 4px 3px 6px 0px rgba(163, 163, 163, 0.75);
+  background-color: white;
+}
+
+.residendata {
+  margin-top: 2rem;
+  padding-left: 3rem;
+  padding-right: 2rem;
+}
+
+/* Valuse section start css */
+.value {
+  margin-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+.value-sec1 {
+  display: flex;
+  justify-content: center;
+}
+
+.value-sec1 img {
+  display: flex;
+  justify-content: center;
+  height: 32rem;
+  width: 26rem;
+  border-top-left-radius: 80%;
+  border-top-right-radius: 80%;
+  box-shadow: -2px 0px 23px 1px rgba(145, 145, 145, 0.75);
+  -webkit-box-shadow: -2px 0px 23px 1px rgba(145, 145, 145, 0.75);
+  -moz-box-shadow: -2px 0px 23px 1px rgba(145, 145, 145, 0.75);
+}
+
+.value-sec2 h6 {
+  text-transform: uppercase;
+}
+
+.value-sec2 h1 {
+  text-transform: capitalize;
+  color: #0DCAF0;
+  margin-bottom: 3rem;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+/* Conatct section CSS :start */
+.contact {
+  margin-top: 8rem;
+}
+
+.innercon {
+  /* background-color: #0DCAF0; */
+  border: 0.1rem solid rgb(247, 247, 247);
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #fcfcfc;
+  transition: 0.8s ease;
+}
+
+.innercon:hover {
+  /* background-color: #0DCAF0; */
+
+  background-color: #c9c9c9;
+
+}
+
+.mycon {
+  margin-bottom: 2rem;
+}
+
+.con1 {
+  margin: 0rem 1rem;
+}
+
+.innercon i {
+  margin-right: 2rem;
+  margin-top: 0.4rem;
+  color: #0DCAF0;
+  font-size: 1.4rem;
+}
+
+.innercon h4 {
+  font-size: 1rem;
+
+}
+
+.contact h6 {
+  text-transform: uppercase;
+}
+
+.contact h1 {
+  color: #0DCAF0;
+  text-transform: capitalize;
+  font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.con1 p {
+  font-size: 0.8rem;
+}
+
+.con1 button {
+  text-transform: capitalize;
+}
+
+.con-sec2 {
+  display: flex;
+  justify-content: center;
+}
+
+.con-sec2 img {
+  width: 28rem;
+  height: 35rem;
+
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: -2px 0px 23px 1px rgba(145, 145, 145, 0.75);
+  -webkit-box-shadow: -2px 0px 23px 1px rgba(145, 145, 145, 0.75);
+  -moz-box-shadow: -2px 0px 23px 1px rgba(145, 145, 145, 0.75);
+}
+
+/* Testimonial section css start */
+.maintest {
+  margin-top: 10rem;
+}
+
+.testimonialmain {
+  background-color: #0d9ebb;
+  border-radius: 1.5rem;
+  padding: 1rem;
+  text-align: center;
+
+}
+
+.testimonialinner {
+  background-color: #0DCAF0;
+  border-radius: 1.5rem;
+  padding: 7rem;
+}
+
+.testimonialinner h1 {
+  text-transform: capitalize;
+  color: white;
+}
+
+.testimonialinner p {
+  text-transform: capitalize;
+  color: white;
+}
+
+.testimonialinner button {
+  border: 0.3rem solid rgb(255, 255, 255);
+  color: white;
+  font-weight: 600;
+}
+
+.testimonialinner button:hover {
+  background-color: #0d9ebb;
+  color: white;
+}
+
+/* footer section  */
+.fa-sign-hanging {
+  font-size: 2rem;
+}
+
+
+
+
+/* Responsiveness start in 991px Code is start */
+
+@media (max-width:991px) {
+  .home-sec2 img {
+    height: 30rem;
+    width: 25rem;
   }
-  to {
-    transform: rotate(360deg);
+
+  .imgbg {
+    width: 25rem;
+  }
+
+  .home-sec1 h1 {
+    font-size: 3rem;
+  }
+
+  .home-sec1 h1 {
+    font-size: 2rem;
+  }
+
+  .company-Icons i {
+    font-size: 4rem;
+  }
+
+  .swipers img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .value-sec1 img {
+    margin-bottom: 10rem;
+  }
+
+  .con-sec2 img {
+    width: 20rem;
+    height: 30rem;
+  }
+
+  .innercon {
+    margin-bottom: 4rem;
+    width: 10rem;
+  }
+
+  .innercon h4 {
+    font-size: 0.9rem;
+  }
+
+  .con1 button {
+    font-size: 0.5rem;
+  }
+
+  .con-sec2 img {
+    margin-left: 10rem;
+  }
+}
+
+
+
+/* Responsiveness code 767px  */
+
+@media (max-width:767px) {
+  .home-sec1 h1 {
+    font-size: 3rem;
+  }
+
+  .home-sec1 {
+    text-align: center;
+  }
+
+  .maincount {
+    margin-top: 8rem;
+  }
+
+  .imgbg {
+    margin-top: 7rem;
+  }
+
+  .home-sec1 h1 {
+    font-size: 3rem;
+  }
+
+  .swipers img {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .residendata {
+    padding: 0rem 2rem;
+  }
+
+  .swipers p {
+    font-size: 0.6rem;
+  }
+
+  .mainrecidenve h1 {
+    font-size: 1.5rem;
+  }
+
+  .value-sec1 img {
+    width: 22rem;
+    height: 30rem;
+  }
+
+  .value-sec2 h1 {
+    font-size: 1.5rem;
+  }
+
+  .contact h1 {
+    font-size: 1.5rem;
+  }
+
+  .con-sec2 img {
+    margin-left: 0rem;
+    margin-top: 5rem;
+  }
+
+  .innercon {
+    margin-bottom: 0rem;
+  }
+
+  .innercon {
+    width: 15rem;
+  }
+}
+
+
+/* responsiveness code 575px */
+@media (max-width:575px) {
+  .home-sec1 {
+    padding: 0px;
+  }
+
+  .home-sec2 img {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .home-sec1 h1 {
+    font-size: 2rem;
+  }
+
+  .imgbg {
+    width: 20rem;
+  }
+
+  .company-inner {
+    padding: 0rem 1rem;
+  }
+
+  .sliders {
+    width: 200px;
+  }
+
+  .mainrecidenve {
+    padding: 0rem 3rem;
+  }
+
+  .swipers h4 {
+    font-size: 0.8rem;
+  }
+
+  .residendata {
+    padding: 0rem 1rem;
+  }
+
+  .swipers img {
+    width: 6.7rem;
+  }
+  .mainrecidenve h6{
+    font-size: 0.6rem;
+  }
+  form {
+    margin-top: 4rem;
+  }
+
+  .value-sec1 img {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .value-sec2 {
+    padding: 0rem 3rem;
+  }
+
+  .innercon {
+    width: 11rem;
+    padding: 1rem;
+  }
+
+  .mycontact {
+    padding: 0rem 3rem;
+  }
+
+  .con-sec2 img {
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .testimonialinners {
+    padding: 0rem 3rem;
+  }
+
+  .testimonialinner {
+    padding: 3rem;
+  }
+
+  .contactsecss {
+    display: block;
+  }
+
+
+  .displaycontact {
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 4rem;
+  }
+
+  .home {
+    padding: 3rem;
+  }
+
+}
+
+@media(max-width:474px) {
+  .home-sec1 input {
+    width: 15rem;
   }
 }
